@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: grade-demo
   syncPolicy:
-    automated:
+    automated: true
       prune: true
       selfHeal: true
     syncOptions:
